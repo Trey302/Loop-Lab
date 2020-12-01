@@ -51,6 +51,21 @@ console.log(i += 2)
 }
 while(i <=20 );
 
+// Prompt 9: Write a while loop that counts from 5 to 20 and prints each number to the console.
+let i = 5;
+while (i <= 20) {
+  console.log(i++);
+}
 
+// Prompt 10: Write a while loop to count from 20 to 0. Log each number to the console.
+let i = 20;
+while(i >= 0){
+    console.log(i--)
+}
 
-
+// Prompt 11: Write a while loop that uses the prompt function that will continue to ask the user for the magic number until they enter the number 8.
+let i;
+let magic = parseInt(i)
+while (magic != 8) {
+    magic = prompt("Guess the magic number.");
+}

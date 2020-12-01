@@ -69,3 +69,10 @@ let magic = parseInt(i)
 while (magic != 8) {
     magic = prompt("Guess the magic number.");
 }
+
+// Prompt 12: Write a do while loop that iterates at least once and reiterates until i is no longer less than 5.
+let i = 3
+do{
+console.log(i++)
+}
+while(i<=5);
